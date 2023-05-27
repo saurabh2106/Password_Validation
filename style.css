@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+ 
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: antiquewhite;
+}
+
+.container {
+    background-color: aliceblue;
+    width: 90vh;
+    padding: 28px;
+    border-radius: 10px;
+    cursor: default;
+    margin: 20px 0px 1px 0px;
+}
+
+.container .pass-filed {
+    height: 25vh;
+    width: 100%;
+    position: relative;
+}
+
+input:first-of-type {
+    height: 50px;
+    width: 70%;
+    padding-left: 20px;
+    outline: none;
+    font-size: 1.1rem;
+    border: 1px solid #999;
+    border-radius: 5px;
+    margin: 0px 12px 0px 0px;
+}
+
+.pass-filed i {
+    right: 20px;
+    transform: translateY(-50);
+    top: 50%;
+}
+
+.content {
+    cursor: default;
+
+}
+
+.content p {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.requirement-list li {
+    font-size: 1.1rem;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.requirement-list li i {
+    margin-right: 18px;
+
+}
+
+.requirement-list li.valid i{
+    font-size: 1.2rem;
+    color: green;
+}
+
+.requirement-list li.valid span {
+    color: #999;
+}
